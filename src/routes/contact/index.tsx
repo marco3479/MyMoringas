@@ -7,7 +7,7 @@ export default component$(() => {
         <>
             <div class='bg-white text-black  text-5xl'>
                 <br/>
-                <h1 class='ml-40 font-semibold'>Contact Us</h1>
+                <h1 class='ml-40 font-semibold'>Contact</h1>
                 <br/>
             </div>
             <div class='bg-green text-white px-40'>
