@@ -24,9 +24,11 @@ export default component$(() => {
                         </span>
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <span className='hidden md:inline text-white'>
-                            <Link href='about'>About Us</Link>
-                            &nbsp;&nbsp;&nbsp;
                             <Link href='shop'>Shop</Link>
+                            &nbsp;&nbsp;&nbsp;
+                            <Link href='blog'>Blog</Link>
+                            &nbsp;&nbsp;&nbsp;
+                            <Link href='about-us'>About Us</Link>
                             &nbsp;&nbsp;&nbsp;
                             <Link href='contact'>Contact</Link>
                         </span>

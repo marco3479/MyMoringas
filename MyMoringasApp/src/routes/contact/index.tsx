@@ -2,14 +2,12 @@ import { component$, useStyles$ } from "@builder.io/qwik";
 
 export default component$(() => {
 
-    useStyles$(contactCSS);
 
     return (
         <>
             <div class='bg-white text-black  text-5xl'>
                 <br/>
-                <h1 class='ml-40'>Contact</h1>
-                <br/>
+                <h1 class='ml-40 font-semibold'>Contact</h1>
                 <br/>
             </div>
             <div class='bg-green text-white px-40'>
@@ -21,27 +19,15 @@ export default component$(() => {
                         <input name='Name' placeholder="Name" type='text'/>
                         <input name='Email' placeholder="Email" type='text'/>
                     </span>
-                    <input name='PhoneNumber' placeholder="Phone number" type='text'/>
-                    <textarea name='Comment' placeholder="Tell us something"/>
+                        <input name='PhoneNumber' placeholder="Phone number" type='text'/>
+                        <textarea name='Comment' placeholder="Tell us something"/>
+                        <input class='max-w-max bg-white text-green rounded-md px-5' type='submit' value='Send'/>
                 </form>
+                <br/>
+                <br/>
             </div>
         </>
     )
 })
 
 
-export const contactCSS = `
-
-input, input::placeholder, textarea, textarea::placeholder {
-    background-color: #5d9c13;
-    color: white;
-    border: 0;
-    padding: 1.5rem;
-    height: 4.5rem;
-}
-
-input:focus {
-    border: none;
-}
-
-`

@@ -49,12 +49,6 @@
  }
  
  
- @media (min-width: 768px) {
-   #footer {
-     grid-template-columns: 1fr 2fr;
-   }
- }
- 
 
  /*
  TEXT REEL
@@ -93,3 +87,31 @@
   }
 }
 
+
+/*
+INPUT ELEMENTS
+*/
+
+
+input::placeholder, textarea::placeholder {
+    color: white;
+    opacity: 0.5;
+}
+
+input, textarea {
+    color: white;
+}
+
+input, textarea {
+    background-color: #5d9c13;
+    border: 0px solid;
+    padding: 0.5rem;
+    outline: #d4d4d4 solid 0.5px;
+    margin: 0px;
+    outline-offset: 0px;
+}
+
+input:focus {
+    border: none;
+    outline: white solid 0.5px;
+}
