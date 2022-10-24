@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/**
+ * WHAT IS THIS FILE?
+ *
+ * Globally applied styles. No matter which components are in the page or matching route,
+ * the styles in here will be applied to the Document, without any sort of CSS scoping.
+ *
+ */
+
+ html,
+ body {
+   padding: 0;
+   margin: 0;
+   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+ }
+ 
+ a {
+   color: inherit;
+   text-decoration: none;
+ }
+ 
+ a:hover {
+   text-decoration: underline;
+ }
+ 
+ * {
+   box-sizing: border-box;
+ }
+ 
+ ul, li {
+   list-style-type: circle;
+ }
+ 
+ li {
+   margin-bottom: 10px;
+ }
+ 
+ @media (prefers-color-scheme: dark) {
+   html {
+     color-scheme: dark;
+   }
+   body {
+     color: white;
+     background: black;
+   }
+ }
+ 
+ 
+
+ /*
+ TEXT REEL
+ */
+
+ .reel::before {
+  content: 'Organic';
+  animation: swapWord 8s linear infinite alternate;
+ }
+
+ @keyframes swapWord {
+  0% {
+    content: "Organic";
+    color: black;
+  }
+  20% {
+    color: white;
+  }
+  40% {
+    color: black;
+    content: "Superfood"
+  }
+  55% {
+    color: white;
+  }
+  70% {
+    color: black;
+    content: "Vegan"
+  }
+  85% {
+    color: white;
+  }
+  100% {
+    color: black;
+    content: "Capsules";
+  }
+}
+
+
+/*
+INPUT ELEMENTS
+*/
+
+
+input::placeholder, textarea::placeholder {
+    color: white;
+    opacity: 0.5;
+}
+
+input, textarea {
+    color: white;
+}
+
+input, textarea {
+    background-color: #5d9c13;
+    border: 0px solid;
+    padding: 0.5rem;
+    outline: #d4d4d4 solid 0.5px;
+    margin: 0px;
+    outline-offset: 0px;
+}
+
+input:focus {
+    border: none;
+    outline: white solid 0.5px;
+}
