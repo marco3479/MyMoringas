@@ -12,7 +12,7 @@ export default component$(() => {
             </div>
             <div class='bg-green text-white px-40'>
                 <br/>
-                <h2 class='text-xl'>Get in touch with us</h2>
+                <h2 >Get in touch with us</h2>
                 <br/>
                 <form class='flex flex-col gap-4 '>
                     <span class='grid grid-flow-col grid-cols-2 gap-4'>

@@ -3,7 +3,7 @@ import { component$ } from '@builder.io/qwik';
 export default component$(() => {
     return (
         <div class='p-10 px-32'>
-            <h1 class='text-4xl'>
+            <h1 >
                 Introduction
             </h1>
             <br/>
@@ -23,7 +23,7 @@ export default component$(() => {
             <br/>
             <br/>
             <br/>
-            <h3 class='text-3xl'>
+            <h3 >
                 Moringa Phytonutrients
             </h3>
             <br/>
@@ -37,7 +37,7 @@ export default component$(() => {
             <br/>
             <br/>
             <br/>
-            <h3 class='text-3xl'>
+            <h3 >
                 Antioxidants and Anti-Inflammatory Compounds of Moringa
             </h3>
             <br/>
@@ -50,7 +50,7 @@ export default component$(() => {
             <br/>
             <br/>
             <br/>
-            <h3 class='text-3xl'>
+            <h3 >
                 Amino Acids and Vitamins
             </h3>
             <br/>
@@ -62,7 +62,7 @@ export default component$(() => {
             <br/>
             <br/>
             <br/>
-            <h3 class='text-3xl'>
+            <h3 >
                 The demographic sources of Moringa
             </h3>
             <br/>
@@ -74,12 +74,12 @@ export default component$(() => {
             <br/>
             <br/>
             <br/>
-            <h4 class='text-2xl'>
+            <h4 >
                 Countries where Moringa is extensively grown. (ResearchGate, 2015)
             </h4>
             <br/>
             <br/>
-            <h3 class='text-3xl'>
+            <h3 >
                 Obtaining Quality Pure Moringa Capsules
             </h3>
             <br/>
@@ -108,7 +108,7 @@ export default component$(() => {
             <br/>
             <br/>
             <br/>
-            <h3 class='text-3xl'>
+            <h3 >
                 About the author
             </h3>
             <br/>
@@ -121,7 +121,7 @@ export default component$(() => {
             <br/>
             <br/>
             <br/>
-            <h4 class='text-2xl'>
+            <h4 >
                 References
             </h4>
             <br/>
